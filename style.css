@@ -12,17 +12,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+  
 }
 
 .todo-container{
+    top: 0;
+    position: absolute;
+    width: 450px;
+    margin: 20px;
     background: #BEC6A0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    width: 450px;
     text-align: center;
-    
 }
 
 #task-input{
