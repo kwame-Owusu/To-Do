@@ -39,7 +39,7 @@ const loadTasksFromLocalStorage = () => {
         // Attach event listeners to the buttons
         delTask.addEventListener('click', () => {
             newTask.remove();
-            saveTasksToLocalStorage();
+            saveTasksToLocalStorage(); //we call the function to keep local storage in sync
         });
 
         completed.addEventListener('click', () => {
@@ -75,7 +75,7 @@ addTaskButton.addEventListener('click', () => {
     // Add event listeners to new task buttons
     delTask.addEventListener('click', () => {
         newTask.remove();
-        saveTasksToLocalStorage();
+        saveTasksToLocalStorage(); 
     });
 
     completed.addEventListener('click', () => {
